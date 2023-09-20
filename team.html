@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Barber - Barbers & Hair Cutting</title>
+  <meta name="title" content="Barber - Barbers & Hair Cutting">
+  <meta name="description" content="This is a barber HTML template for Gee's Clippers">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - flaticon
+  -->
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+  <!-- 
+    - Partnership Bar
+  -->
+
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+
+</head>
+ <body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li class="header-top-item">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Call Us :</p>
+
+            <a href="tel:4148004222" class="item-link">(414) 800-4222</a>
+          </li>
+
+          <li class="header-top-item">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Opening Hour :</p>
+
+            <p class="item-text">Tuesday - Friday, 8AM - 6PM | Saturday, 8AM - 4PM</p>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.facebook.com/geesclippersbarberandbeautysalon" target="_blank" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.youtube.com/watch?v=Ff3ypeMoKGk" target="_blank" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/GeesClippers.png" alt="Logo" width="90px">
+        </a>
+        <!-- <a href="#" class="logo">
+          <img src="./assets/images/Gee'sMKEWellnessClinic.png" alt="Gee's Clinic" width="40%">
+        </a> -->
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="team.html" class="navbar-link" data-nav-link>Our Team</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="geeMedicalClinic.html" class="navbar-link" data-nav-link>Gee's Medical Clinic</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="event.html" class="navbar-link" data-nav-link>Events</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contact.html" class="navbar-link" data-nav-link>Contact Gee</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#appointment" class="btn has-before">
+          <span class="span">Appointment</span>
+          
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-before has-bg-image" id="team-home" aria-label="home"
+        style="background-image: url('./assets/images/allBarbers.jpg')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">Gee's Clippers Barbershop</h1>
+
+          <p class="hero-text">
+            "The barbers are extremely nice and pleasant 😊 They greet you when you walk in and make you feel at home. My son is always extremely please with his hair cuts. The owner is extremely nice as well👍🏿 Although I've never had to wait long, it's well worth the wait if you do...!!""
+          </p>
+
+          <!-- <a href="#" class="btn has-before">
+            <span class="span">Explore Our Services</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a> -->
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #Auto Image Slider for Haircuts
+      -->
+
+      <div class="container">
+        <h2>Haircuts from Gee's Barbers</h2>
+        <section class="partners-logos slider">
+          <div class="slide"><img src="assets/images/hc1.png" alt=""></div>
+          <div class="slide"><img src="assets/images/hc2.png" alt=""></div>
+          <div class="slide"><img src="assets/images/hc3.png" alt=""></div>
+          <div class="slide"><img src="assets/images/hc4.png" alt=""></div>
+          <div class="slide"><img src="assets/images/hc5.png" alt=""></div>
+          <div class="slide"><img src="assets/images/hc6.png" alt=""></div>
+          <div class="slide"><img src="assets/images/hc7.png" alt=""></div>
+          <div class="slide"><img src="assets/images/hc8.png" alt=""></div>
+          <div class="slide"><img src="assets/images/hc9.png" alt=""></div>
+          <div class="slide"><img src="assets/images/hc10.png" alt=""></div>
+        </section>
+      </div>
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      
+
+      <section class="section gallery" id="gallery" aria-label="photo gallery">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <h2 class="h2 section-title">Gee's Barbers:</h2>
+            </div>
+
+            <!-- <a href="#" class="btn has-before">
+              <span class="span">Explore More Gallery</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a> -->
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/LuckyBarber.png" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Lucky the Barber</h3>
+
+                  <p class="card-text">
+                    Phone Number: <br>
+                    (414) 975-9362
+                    <br>
+                    Email Address: luckythebarber@gmail.com
+                  </p>
+
+                  <a href="https://www.instagram.com/crispybylucky/" target="_blank" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/JayMoneyJayMoneyBarber.png" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">JayMoney Thee Barber</h3>
+
+                  <p class="card-text">
+                    Phone Number:<br>
+                    (414) 439-9125
+
+                  </p>
+
+                  <a href="https://booksy.com/en-us/948494_jaymoney-thee-barber_barber-shop_39947_milwaukee" target="_blank" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/ChrisBarber.png" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Dabarber Chris</h3>
+                  <p class="card-text">
+                    Phone Number:<br>
+                    (414) 499-5864
+                  </p>
+                  <a href="https://booksy.com/en-us/456212_chris-da-barber-gees-clippers_barber-shop_39947_milwaukee" target="_blank" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/Adi-Barber.png" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Adi MKE</h3>
+
+                  <p class="card-text">
+                    Phone Number:<br>
+                    (920) 441-8401
+                  </p>
+
+                  <a href="https://booksy.com/en-us/37440_adi-armour_barber-shop_39947_milwaukee?do=invite&_branch_match_id=1215309063913727358&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVd%2FQoLczyykiNqEoCAPR8fKQiAAAA" target="_blank" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/Styles-Barber.png" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Rick'z Styles & Cutz</h3>
+                  <p class="card-text">
+                    Phone Number: <br>
+                    (414) 202-6101
+                    <br>
+                    Email Address: jcstylesandcutz@gmail.com
+                  </p>
+                  <a href="https://booksy.com/en-us/31657_rick-z-stylz-cutz-llc_barber-shop_123025_chesapeake-ranch-estates?do=invite&_branch_match_id=1215309063913727358&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVDzUzMykMcHJNyU0CAO1klBAiAAAA" target="_blank" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/jujudabarber.png" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Jujudabarber</h3>
+                  <p class="card-text">
+                    Phone Number:<br> 
+                    (414) 687-8092
+                  </p>
+                  <a href="https://booksy.com/en-us/436015_cutz-by-juju_barber-shop_39947_milwaukee?do=invite&_branch_match_id=1215309063913727358&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FV9zcvLk0xNndLyU0CAGsZPFoiAAAA" target="_blank" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/jontooty-barber1.png" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Jon Tooty Ragland</h3>
+                  <p class="card-text">
+                    MKE Rap Artist MKE Barber
+                  </p>
+                  <a href="https://www.instagram.com/jontooty/" target="_blank" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/knowledgeBorn-Barber.png" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Knowledge Borne Tha Barber</h3>
+                  <p class="card-text">
+                    Phone Number:<br>
+                    (262) 417-0541
+                  </p>
+                  <a href="https://booksy.com/en-us/880586_knowledge-borne-tha-barber-knowledge-borne-barber-suite_barber-shop_39947_milwaukee" target="_blank" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/jflipdabarber.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Jflipdabarber</h3>
+                  <p class="card-text">
+                    Phone Number:<br>
+                    (414) 795-6772
+                  </p>
+                  <a href="https://booksy.com/en-us/445657_a-look-by-flip-geesclippers_barber-shop_39947_milwaukee" target="_blank" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> 
+
+
+
+
+
+      <!-- 
+        - #APPOINTMENT
+      -->
+
+      <section class="section appoin" id="appointment" aria-label="appointment">
+        <div class="container">
+
+          <div class="appoin-card">
+
+            <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+              <img src="./assets/images/appoin-banner-1.jpg" width="250" height="774" loading="lazy" alt=""
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <h2 class="h2 section-title">Make an Appointment with Gee's Barbers</h2>
+
+              <p class="section-text">
+                Gee's barbers will need your information to schedule a haricut appointment.
+              </p>
+
+              <form action="" class="appoin-form">
+
+                <div class="input-wrapper">
+                  <input type="text" name="name" placeholder="Your Full Name" required class="input-field">
+
+                  <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+                </div>
+
+                <div class="input-wrapper">
+                  <input type="text" name="phone" placeholder="Phone Number" required class="input-field">
+
+                  <select name="category" class="input-field">
+
+                    <option value="Select Barber">Select Barber</option>
+                    <option value="Any Barber">Any Barber</option>
+                    <option value="JayMoney JayMoney">JayMoney Thee Barber</option>
+                    <option value="Dabarber Chris">Dabarber Chris</option>
+                    <option value="Adi MKE">Adi MKE</option>
+                    <option value="Lucky the Barber">Lucky the Barber</option>
+                    <option value="Rick'z Styles & Cutz">Rick'z Styles & Cutz</option>
+                    <option value="Jujudabarber">Jujudabarber</option>
+                    <option value="Jon Tooty Ragland">Jon Tooty Ragland</option>
+                    <option value="Rick'z Styles & Cutz">Knowledge Borne Tha Barber</option>
+                    <option value="Jflipdabarber">Jflipdabarber</option>
+
+                  </select>
+                  </div>
+
+                <input type="date" name="date" required class="input-field date">
+
+                <textarea name="message" placeholder="Write Message" required class="input-field"></textarea>
+
+                <button type="submit" class="form-btn">
+                  <span class="span">Appointment Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </form>
+
+            </div>
+
+            <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+              <img src="./assets/images/appoin-banner-2.jpg" width="250" height="774" loading="lazy" alt=""
+                class="img-cover">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            Gee's
+            <span class="span">Clippers</span>
+          </a>
+
+          <form action="" class="input-wrapper">
+
+            <input type="email" name="email_address" placeholder="Enter Your Email" required class="email-field">
+
+            <button type="submit" class="btn has-before">
+              <span class="span">Subscribe Now</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Quick Links</p>
+            </li>
+
+            <li>
+              <a href="index.html" class="footer-link has-before">About Gee's Clippers</a>
+            </li>
+
+            <li>
+              <a href="team.html" class="footer-link has-before">Meet Our Team</a>
+            </li>
+
+            <li>
+              <a href="geeMedicalClinic.html" class="footer-link has-before">Gee's Medical Clinic</a>
+            </li>
+
+            <li>
+              <a href="event.html" class="footer-link has-before">Gee's Events</a>
+            </li>
+
+            <li>
+              <a href="contact.html" class="footer-link has-before">Contact Gee</a>
+            </li>
+
+            <li>
+              <a href="contact.html" class="footer-link has-before">Meet Our Sponsors</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Services</p>
+            </li>
+
+            <li>
+              <a href="team.html" class="footer-link has-before">Book a Haircut Appointment</a>
+            </li>
+
+            <!-- 
+            <li>
+              <a href="#" class="footer-link has-before">Hair Colors</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link has-before">Beauty & Spa</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link has-before">Body Massages</a>
+            </li> -->
+
+          </ul>
+
+          <!-- <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Recent News</p>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 70; --height: 75;">
+                  <img src="./assets/images/footer-blog-1.jpg" width="70" height="75" loading="lazy"
+                    alt="The beginners guide to Henna Brows in Brisbane" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#" class="card-title"></a>
+                  </h3>
+
+                  <div class="card-date">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 70; --height: 75;">
+                  <img src="./assets/images/footer-blog-2.jpg" width="70" height="75" loading="lazy"
+                    alt="How do I get rid of unwanted hair on my face?" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#" class="card-title">How do I get rid of unwanted hair on my face?</a>
+                  </h3>
+
+                  <div class="card-date">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                    <name>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul> -->
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="contact-link">
+                2200 N Doctor M.L.K. Jr Dr, Milwaukee, WI 53212
+              </address>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:4148004222" class="contact-link">(414) 800-4222</a>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+              <span class="contact-link">Sun - Friday, 08 am - 09 pm</span>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:gauliensmith@yahoo.com" class="contact-link">gauliensmith@yahoo.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2023 <a href="#" class="copyright-link">codeQUAD</a>. All Rights Reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/team.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
